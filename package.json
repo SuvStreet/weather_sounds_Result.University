@@ -1,0 +1,15 @@
+{
+  "name": "weather_sounds",
+  "version": "1.0.0",
+  "description": "webpack 5 home work",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "js"
+  ],
+  "author": "Kolotusha Dmitrij",
+  "license": "ISC"
+}
