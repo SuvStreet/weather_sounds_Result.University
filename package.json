@@ -4,7 +4,8 @@
   "description": "webpack 5 home work",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx webpack --config webpack.config.prod.js",
+    "build:dev": "npx webpack --config webpack.config.dev.js"
   },
   "keywords": [
     "webpack",
