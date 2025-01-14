@@ -9,4 +9,10 @@ module.exports = merge(commonConfig, {
     port: 8080,
     hot: true,
   },
+  plugins: [
+    new ESLintPlugin({
+      context: './src',
+      extensions: ['js', 'jsx', 'ts', 'tsx'],
+    }),
+  ],
 })

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx webpack serve --config webpack.config.dev.js",
     "build": "npx webpack --config webpack.config.prod.js",
-    "build:dev": "npx webpack --config webpack.config.dev.js"
+    "build:dev": "npx webpack --config webpack.config.dev.js",
+    "lint": "npx eslint src"
   },
   "keywords": [
     "webpack",
@@ -15,9 +16,13 @@
   "author": "Kolotusha Dmitrij",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.0",
+    "eslint": "^9.18.0",
+    "eslint-webpack-plugin": "^4.2.0",
+    "globals": "^15.14.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss": "^8.5.1",
