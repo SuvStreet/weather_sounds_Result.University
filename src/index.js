@@ -95,8 +95,8 @@ function action() {
         }
       })
 
-      volume = event.target.value
-      current_audio.volume = event.target.value
+      volume = Number(event.target.value)
+      current_audio.volume = volume
     }
   })
 
@@ -141,7 +141,6 @@ function action() {
     if (isPlaying) {
       current_audio.pause()
     } else {
-      current_audio.volume = volume
       current_audio.play()
     }
     isPlaying = !isPlaying
